@@ -5,4 +5,5 @@ import {Component} from '@angular/core';
   templateUrl: './menubar.component.html',
 })
 export class MenuBarComponent {
+
 }

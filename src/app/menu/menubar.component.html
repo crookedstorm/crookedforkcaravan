@@ -1,6 +1,10 @@
 <nav class="navbar navbar-fixed-top navbar-dark bg-inverse">
-  <a class="navbar-brand" href="#home">Crooked Fork Caravan</a>
-  <ul class="nav navbar-nav">
+  <a class="navbar-brand" href="#home">
+    <img src="../../../public/images/cfctslogolittle.svg" style="background-color:white;"
+      width="36" height="36" class="rounded d-inline-block align-top" alt="Crooked Fork Caravan">
+      Crooked Fork Caravan
+    </a>
+  <ul class="nav navbar-nav navbar-right float-xs-right">
     <li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
@@ -21,6 +25,6 @@
     </li>
     <li class="nav-item"><a class="nav-link" href="#doom">Doom</a></li>
     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-    <li class="nav-item"><a class="nav-link" href="#about" (click)="clickAbout()">About</a></li>
+    <li class="nav-item"><template ngbModalContainer></template><aboutus></aboutus></li>
   </ul>
 </nav>

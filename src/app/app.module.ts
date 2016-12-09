@@ -3,12 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent }  from './app.component';
+import { ModalAboutus } from './aboutmodal/aboutmodal.component';
 import { MenuBarComponent } from './menu/menubar.component';
+import { OldProjComponent } from './oldproj/oldproj.component';
 
 @NgModule({
   imports:      [ BrowserModule, NgbModule.forRoot() ],
   declarations: [ AppComponent,
-                  MenuBarComponent
+                  ModalAboutus,
+                  MenuBarComponent,
+                  OldProjComponent
                 ],
   bootstrap:    [ AppComponent ]
 })
