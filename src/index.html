@@ -9,7 +9,22 @@
   </head>
 
   <body>
+    <noscript>
+        <style type="text/css">
+            .pagecontainer {display:none;}
+        </style>
+        <div class="container">
+        <div class="card">
+          <div class="card-block">
+            <h4 class="card-title">Javascript Required</h4>
+            <p class="card-text">You don't have javascript enabled.  This site won't work until you turn that on.</p>
+            <a href="https://squattheplanet.com/" class="btn btn-primary">Go somewhere cool</a>
+          </div>
+        </div>
+      </div>
+    </noscript>
     <my-app>
+      <div class="pagecontainer">
       <style type="text/css">
           #pre-bootstrap {
               background-color: #262626 ;
@@ -52,9 +67,14 @@
               <p>
                   Stand by!
               </p>
+              <div class="spinner">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+              </div>
 
           </div>
         </div>
+      </div>
       </my-app>
   </body>
 </html>
