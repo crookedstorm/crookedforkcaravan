@@ -3,6 +3,7 @@ body {
     padding-top: 65px;
 }
 
+
 .link-unstyled {
   color: inherit;
   text-decoration: inherit;
@@ -57,4 +58,9 @@ body {
     transform: scale(1.0);
     -webkit-transform: scale(1.0);
   }
+}
+
+#schmoo .nav>li>a:hover,
+#schmoo .nav>li>a:focus {
+    color: #CCD1D1;
 }
