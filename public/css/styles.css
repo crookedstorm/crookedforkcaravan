@@ -59,3 +59,14 @@
 #schmoo .nav>li>a:focus {
     color: #CCD1D1;
 }
+
+.oldproj {
+ height: 400px;
+ width: 400px;
+ overflow: hidden;
+}
+img.oldproj {
+ height: auto;
+ width: 400px;
+ background-color:black;
+}
